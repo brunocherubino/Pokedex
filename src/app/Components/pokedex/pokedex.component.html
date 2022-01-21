@@ -18,8 +18,8 @@
     <button (click)="searchs()">Buscar</button>
     <br>
     <br>
-    <button *ngIf="muestra" (click)="mostrar()">Mostrar Todos</button>
-    <button *ngIf="!muestra" (click)="mostrarMenos()">Mostrar Menos</button>
+    <button *ngIf="muestra" (click)="mostrar()">Crea tu pokemon</button>
+    <button *ngIf="!muestra" (click)="mostrarMenos()">Listo!</button>
 
     <p *ngIf="!name && !index && muestra" id="aviso">BUSCA TU POKEMON...</p>
 
