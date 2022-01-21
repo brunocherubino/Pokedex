@@ -1,0 +1,72 @@
+body {
+    background-image: linear-gradient(to top, rgb(255, 9, 9) 0%, rgb(0, 0, 0) 100%);
+    width: 100%;
+    height: 100%;
+}
+
+body input,
+button,
+p {
+    background-color: darkred;
+    color: yellow;
+}
+
+#BuscaPokemon {
+    margin-top: 50%;
+}
+
+#parrafo {
+    width: 50%;
+    font-size: 30px;
+    margin-top: 20px;
+    border: 1px solid yellow;
+    font-family: cursive;
+}
+
+#parrafo2 {
+    width: 50%;
+    margin-top: 50px;
+    font-size: 30px;
+    border: 1px solid yellow;
+    font-family: cursive;
+}
+
+.card {
+    background-color: transparent;
+    margin-left: 40%;
+    border: 2px solid white;
+}
+
+#habilidades {
+    color: yellow;
+}
+
+#cerrar {
+    float: right;
+    height: 50px;
+    width: 150px;
+    margin-right: 20px;
+    top: 20px;
+    color: yellow;
+    background-color: red;
+}
+
+#editar {
+    float: right;
+    width: 60%;
+}
+
+#aviso {
+    font-size: 50px;
+    font-family: cursive;
+    color: yellow;
+    -webkit-text-stroke: 2px rgb(30, 66, 184);
+    float: right;
+    background-color: transparent;
+    width: 60%;
+    margin-top: 80px;
+    margin-right: 200px;
+    border: 2px solid black;
+    border-radius: 50%;
+    text-align: center;
+}

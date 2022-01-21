@@ -1,0 +1,71 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: linear-gradient(to top, rgba(252, 2, 2, 0.473) 0%, rgb(10, 7, 7) 100%), url(../../../assets/img/images.jpg);
+    width: 100%;
+    height: 100%;
+}
+
+.title {
+    width: 300px;
+    height: 100px;
+    margin-left: 30px;
+    margin-top: 5%;
+}
+
+form input[type="text"],
+form input[type="password"],
+form input[type="email"],
+form input[type="number"],
+select {
+    text-align: center;
+    padding: 5px;
+    border-radius: 2px;
+    border: 1px solid #ccc;
+    width: 25%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    background-color: darkred;
+    color: darkkhaki;
+}
+
+form input[type="submit"] {
+    background: #eee;
+    padding: 10px;
+    border: 1px solid gray;
+    color: yellow;
+    background-color: red;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 20%;
+    width: 50%;
+}
+
+#login {
+    margin-top: 8%;
+    margin-left: 30px;
+}
+
+.imgAvatar {
+    float: right;
+    margin-right: 600px;
+    top: 20%;
+}
+
+#bienvenida {
+    font-size: 50px;
+    font-family: cursive;
+    color: yellow;
+    -webkit-text-stroke: 2px rgb(30, 66, 184);
+}
+
+#cerrar {
+    height: 50px;
+    width: 150px;
+    margin-right: 20px;
+    color: yellow;
+    background-color: red;
+}

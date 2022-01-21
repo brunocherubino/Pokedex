@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html LANG="es">
+
+<head>
+
+
+</head>
+
+<body>
+
+    <div id="longs">
+        <img src="https://raw.githubusercontent.com/PokeAPI/media/master/logo/pokeapi_256.png" class="title">
+
+
+
+        <form id="login" #formIngreso="ngForm" *ngIf="inicio">
+
+            <label for="name" style="color: wheat;">
+                              Nombre
+                        </label>
+            <input type="text" name="name" id="name" required pattern="[a-zA-Z]+" [(ngModel)]="name" />
+            <br>
+            <label for="email" style="color: wheat;">
+                            Email
+                      </label>
+            <input type="text" name="email" required pattern="[a-zA-Z]+" />
+            <br>
+            <label for="password" style="color: wheat;">
+                        Crear Contraseña
+                  </label>
+            <input type="password" name="password" required/>
+            <img src="https://cdn.icon-icons.com/icons2/851/PNG/128/Pokemon_Trainer_Boy_icon-icons.com_67516.png" class="imgAvatar">
+            <br>
+            <input type="submit" value="Iniciar" id="boton" [disabled]="!formIngreso.form.valid" (click)="iniciar()" />
+
+
+        </form>
+
+        <form id="login" #formIngreso="ngForm" *ngIf="!inicio">
+
+            <p id="bienvenida">{{'Bienvenido ' + name}}</p>
+            <button id="cerrar" (click)="cerrar()">Cerrar sesion</button>
+            <input type="submit" value="Entrar" id="boton" [routerLink]="['/pokedex']" />
+
+
+        </form>
+
+    </div>
+
+</body>
+
+</html>
